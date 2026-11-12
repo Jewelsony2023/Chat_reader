@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "fixtures": "node scripts/generate-fixtures.mjs"
+    "fixtures": "node scripts/generate-fixtures.mjs",
+    "check-gemini": "node scripts/check-gemini.mjs"
   },
   "dependencies": {
     "@google/genai": "^3.2.0",
@@ -19,6 +20,7 @@
     "react-dom": "19.3.0",
     "react-markdown": "^10.1.0",
     "recharts": "^3.10.1",
+    "server-only": "^0.0.1",
     "zod": "^4.6.7"
   },
   "devDependencies": {
